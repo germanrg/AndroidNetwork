@@ -92,13 +92,10 @@ public class MainActivity extends Activity implements OnClickListener {
             try {
 				s = (String)in.readObject();
 			} catch (OptionalDataException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			} catch (ClassNotFoundException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
             return s;
